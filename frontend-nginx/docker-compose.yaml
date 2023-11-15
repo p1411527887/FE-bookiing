@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   nginx:
-    image: 1.25.0
+    image: nginx:lastet
     ports:
       - 3000:80 
     volumes:
